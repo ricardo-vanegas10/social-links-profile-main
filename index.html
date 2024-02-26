@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Social links profile</title>
+  
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  <style>
+@font-face {
+  font-family: 'Inter';
+  src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+*{
+  font-family: Inter;
+}
+
+h2, button, .city{
+  font-weight: 700;
+}
+  </style>
+</head>
+
+<body class="bg-[#141414] text-white flex flex-col items-center justify-center h-screen w-screen">
+
+  <div class="flex flex-col items-center justify-center bg-[#1f1f1f] py-6 px-5 rounded-lg overflow-hidden	w-fit text-[Inter]">
+    <img class="w-[60px] rounded-full my-2" src="./assets/images/avatar-jessica.jpeg" alt="avatar-jessica">
+    <div class="flex flex-col items-center justify-center">
+      <h2 class="text-[20px]">Jessica Randall</h2>
+      <p class="city text-[#c5f82a] text-[11px]">London, United Kingdom</p>
+      <p class="my-2 text-[11px]">"Front-end developer and avid reader."</p>
+    </div>
+    <div class="btns flex flex-col items-center justify-center text-[14px] md:w-[35%] w-[100%]">
+      <button class="bg-[#333333] my-3 py-2 md:px-[120px] px-[100px] rounded-lg hover:bg-[#c5f82a] hover:text-black">GitHub</button>
+      <button class="bg-[#333333] my-3  py-2 md:px-[88px] px-[65px] rounded-lg hover:bg-[#c5f82a] hover:text-black whitespace-nowrap">Frontend Mentor</button>
+      <button class="bg-[#333333] my-3  py-2 md:px-[116px] px-[95px] rounded-lg hover:bg-[#c5f82a] hover:text-black">LinkedIn</button>
+      <button class="bg-[#333333] my-3  py-2 md:px-[120px] px-[100px] rounded-lg hover:bg-[#c5f82a] hover:text-black">Twitter</button>
+      <button class="bg-[#333333] my-3  py-2 md:px-[110px] px-[90px] rounded-lg hover:bg-[#c5f82a] hover:text-black">Instagram</button>
+    </div>
+  </div>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
